@@ -1,6 +1,6 @@
 <?php $this->suspensionRedirect($view); ?>
 <!DOCTYPE html>
-<html lang="en" <?php $this->helpers->htmlClasses(); ?>>
+<html lang="zxx" <?php $this->helpers->htmlClasses(); ?>>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -27,16 +27,16 @@
 							<a href="#" id="pull"><strong>MENU</strong></a>
 							<ul>
 								<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
-								<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services">SERVICES</a></li>
-								<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery">GALLERY</a></li>
-								<li <?php $this->helpers->isActiveMenu("testimonials"); ?>><a href="<?php echo URL ?>testimonials">TESTIMONIALS</a></li>
-								<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact">CONTACT US</a></li>
+								<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services#content">SERVICES</a></li>
+								<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery#content">GALLERY</a></li>
+								<li <?php $this->helpers->isActiveMenu("testimonials"); ?>><a href="<?php echo URL ?>testimonials#content">TESTIMONIALS</a></li>
+								<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact#content">CONTACT US</a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="containerRight fr">
 						<p>
-							<img src="public/images/common/hdIcon.png" alt=""><?php $this->info(["phone","tel"]);?></p>
+							<img src="public/images/common/hdIcon.png" alt=""><?php $this->info(["phone","tel"]);?>
 						</p>
 					</div>
 					<div class="clearfix"></div>		

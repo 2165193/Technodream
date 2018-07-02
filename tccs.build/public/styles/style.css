@@ -14,7 +14,7 @@ body {max-width: 100%;min-width: 1200px;margin: 0 auto;text-align: center;font-f
 a {color:inherit;text-decoration: none}
 a:hover {text-decoration: none;color:inherit;}
 h1,h2,h3,h4,h5{ padding:0; margin:0; }
-.row {max-width: 1190px;margin: 0 auto}
+.row {max-width: 1100px;margin: 0 auto}
 
 /*floats*/
 .fl {float:left;}
@@ -46,12 +46,13 @@ form [type="submit"] {margin:20px auto}
 
 /*contact form*/
 .ctc-form {margin: 0 auto;text-align: center;}
-.ctc-form input[type="text"],.ctc-form textarea {font-family:Arial;font-size: 16px;color:#000;height:45px;display: block;width: 100%;border:1px solid #ddd;border-radius: 3px;padding: 5px 10px;box-sizing: border-box;margin: 0 auto 8px}
-.ctc-form textarea {height: 120px;padding-top:10px;}
-.ctc-form button {display: block;}
+.ctc-form input[type="text"],.ctc-form textarea {font-family:Arial;font-size: 16px;color:#000000;height:45px;display: block;width: 100%;border:1px solid #ddd;border-radius: 3px;padding: 5px 10px;box-sizing: border-box;margin: 0 auto 8px}
+.ctc-form textarea {height: 120px;padding-top:10px; color: #000000}
+.ctc-form button {display: block;background: #D23926; color: #ffffff; border: none; font-family: "Montserrat"; padding: 15px 46px; font-size: 18px; letter-spacing: 2px; font-weight: 400;}
 .ctc-form .recap {display: inline-block;}
 .ctc-form .g-recaptcha div {margin: 0 auto 10px;}
 .ctc-form .ctc-hide {display: none;}
+label {color: #000000}
 
 /*gallery*/
 #content .gallery-container {text-align: center;}
@@ -64,8 +65,8 @@ form [type="submit"] {margin:20px auto}
 
 h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 /*header*/
-#header {background: rgba(210, 57, 38, 0.8);padding: 0 0; font-family: "Montserrat"; position: absolute; z-index: 1; min-width: 100%;}
-#header .container .containerLeft{margin: 18px 0;margin: 27px 0;}
+#header {background: rgba(210, 57, 38, 0.8);padding: 27px 0; font-family: "Montserrat"; position: absolute; z-index: 1; min-width: 100%;}
+#header .container .containerLeft{margin: 7px 0;}
 #header nav a#pull {display: none}
 #header nav ul {margin: 0;padding: 0}
 #header nav ul li {display: inline-block;vertical-align: middle; padding: 0 24px 0 24px;}
@@ -73,42 +74,69 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #header nav ul li:last-of-type {padding-right: 0}
 #header nav ul li a {font-weight: 400; font-size: 16px; color: #fff;}
 #header nav ul li.active-menu a, #header nav ul li a:hover {color:#fff;}
-#header .container .containerRight{margin: 20px 0;}
 #header .container .containerRight p{font-size: 28px; font-weight: 700; color: #fff; margin: 0; padding: 0}
 #header .container .containerRight img{vertical-align: middle; margin-right: 5px;}
 /*banner*/
-#banner .bannerTop{background: url(../images/common/bannerBg.png)no-repeat center center;background-size: cover; padding: 185px 0 100px 0; position: relative;}
+#banner .bannerTop{background: url(../images/common/bannerBg.jpg)no-repeat center center;background-size: cover; padding: 185px 0 100px 0; position: relative;}
 #banner .bannerTop h2{font-weight: 600; font-size: 96px; letter-spacing: 2px;}
 #banner .bannerTop h3{font-weight: 700; font-size: 35px; letter-spacing: 2px;}
 #banner .bannerTop h3 span{display: block;}
 #banner .bannerTop span.construction{background: #D23926; padding: 30px 33px; font-weight: 700; font-size: 50px;display: inline-block;margin: 40px 0 25px 0;letter-spacing: 2px;}
 #banner .bannerTop p{font-family: "Poppins"; font-weight: 900; font-size: 43px; margin: 0}
-#banner .bannerBot {background: #D23926;}
-#banner .bannerBot dl{display: flex; max-width: 360px; text-align: left; position: relative; align-items: center;}
+#banner .bannerBot {background: #D23926; padding: 35px 0 30px 0}
+#banner .bannerBot .row {max-width: 1200px}
+#banner .bannerBot dl{display: flex; max-width: 360px; text-align: left; position: relative;}
 #banner .bannerBot dl.withBorder:before{background: url(../images/common/bannerBorder.png); content: ""; width: 1px; height: 98px; position: absolute; left: -50px;}
 #banner .bannerBot dl{margin: 0 40px}
 #banner .bannerBot dl:first-of-type{margin-left:0;}
 #banner .bannerBot dd {margin-left: 20px; max-width: 250px; width: 250px;}
 #banner .bannerBot dl span {font-weight: 700; font-size: 18px;}
 #banner .bannerBot dl p {font-weight: 400; font-size: 15px;}
-#banner .bannerBot .container{display: flex; padding: 35px 0 30px 0}
+#banner .bannerBot .container{display: flex;}
 /*content*/
-#content {background: #fff;padding: 60px 0 70px 0;}
-#content h2 {    font-weight: 600; font-size: 20px; color: #AC3120; line-height: 30px; max-width: 931px; margin: 0 auto;}
-#content .container {position: relative; margin-top: 30px}
-#content dl {width: 33.3333%; position: relative; float: left;}
-#content dl dd {position: absolute; left: 0; right: 0; margin: 0 auto; top: 33%; max-width: 182px; width: 182px}
-#content dl span {font-weight: 700; font-size: 28px;}
-#content dl a{display: block; border: 1px solid #fff; padding: 23px 25px; font-weight: 700; font-size: 15px;margin: 20px 0;}
-
+#service {background: #fff;padding: 60px 0 70px 0;}
+#service p {font-weight: 600; font-size: 20px; color: #AC3120; line-height: 30px; max-width: 931px; margin: 0 auto;}
+#service .container {position: relative; margin-top: 30px}
+#service dl {position: relative; float: left; background: #AC3121;height: 463px;margin: 0 5px;}
+#service dl:first-of-type{margin-left: 0}
+#service dl dt:hover{opacity: 0.7;}
+#service dl dt img{  opacity: 1; transition: .5s ease; backface-visibility: hidden;}
+#service dl dd {position: absolute; left: 0; right: 0; margin: 0 auto; top: 33%; max-width: 182px; width: 182px}
+#service dl span {font-weight: 700; font-size: 28px;}
+#service dl a{display: block; border: 1px solid #fff; padding: 23px 25px; font-weight: 700; font-size: 15px;margin: 20px 0;}
+/* service */
+#content {background: url(../images/common/serviceBg.jpg)no-repeat center center; background-size: cover; padding: 90px 0 70px 0;}
+#content .row{max-width: 1250px; margin: 0 auto; text-align: left}
+#content .containerLeft {max-width: 635px; width: 635px;}
+#content .containerLeft h1{font-family: "Montserrat"; font-size: 75px; font-weight: 700;  color: #ffffff}
+#content .containerLeft p{font-family: "Montserrat"; font-size: 17px; font-weight: 300; color: #ffffff;letter-spacing: 1px; line-height: 29px;}
+#content .containerLeft a{display: inline-block; border: 1px solid #fff; padding: 20px 30px; font-weight: 700; font-size: 17px;margin: 20px 0;letter-spacing: 1px;}
+#content .containerRight {margin: 20px 0;}
 /*footer*/
-#footer {background: #fad377;padding: 40px 0}
-
+#footer {background: url(../images/common/ftBg.png)no-repeat center center; background-size: cover; padding: 60px 0 20px 0; position: relative;}
+#footer .ftSocial a{font-family: "Socialico";color: #fff; font-weight: 400; font-size: 38px;margin: 0 2px;}
+#footer .row{max-width: 855px;}
+#footer nav{margin: 60px 0 25px 0}
+#footer h2{font-family: "Montserrat"; font-weight: 700; font-size: 50px; color: #ffffff; background: #D23926;letter-spacing: 7px; padding: 10px 0; max-width: 525px; margin: 0 auto;}
+#footer ul{margin: 0; padding:0;}
+#footer li{display: inline-block; vertical-align: middle; padding: 0 55px 0 55px;color: rgba(255, 255, 255, 0.8);}
+#footer li:first-of-type{padding-left: 0}
+#footer li:last-of-type{padding-right: 0}
+#footer .silver{margin: 0}
 #footer .silver img {display: inline-block;vertical-align: middle;max-width: 50px}
+#footer p.copy{font-family: "Montserrat"; font-weight: 700; font-size: 14px; color: rgba(255, 255, 255, 0.9); letter-spacing: 2px; border: 1px solid rgba(255, 255, 255, 0.8); padding: 20px 0;}
+#footer img.logo{position: absolute; left: 90px; bottom: 85px;}
 
-
+/* media query */
+@media only screen and (max-width: 1200px) {
+    #footer img.logo { position: absolute; left: 18px; bottom: 85px}
+    #banner .bannerBot dl { margin: 0 25px; }
+}
 /*inner pages*/
-.inner #content {min-height: 400px;padding: 40px 0}
+.inner #content {min-height: 400px;padding: 40px 0; background: #ffffff;}
+.inner #content .row{text-align: center;}
+.inner #content h1 {color: #AC3120;}
+.inner #content p {color: #000;}
 
 .inPrivacyBox {max-width: 850px; margin: 0 auto;}
 .inPrivacyBox p {text-align: justify!important;}

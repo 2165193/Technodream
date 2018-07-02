@@ -3,8 +3,8 @@
 
 	$siteInfo= [
 			//general info
-			"company_name" => "Company Name", 
-			"phone" =>  "(704) 363-1281", 		  //either no format or dashed format
+			"company_name" => "Thomas Construction and Consulting Services", 
+			"phone" =>  "(704)363-1281", 		  //either no format or dashed format
 			"email" => "email@domain.com",   //by default is used as recipient email  
 			"address" => "Company Address", 
 			
@@ -30,7 +30,7 @@
 			"ga_tracking_id" => '',
 
 			//pivate policy link 
-			"policy_link" => '', //change the value to privacy-policy for Privacy Policy Page
+			"policy_link" => 'privacy-policy', //change the value to privacy-policy for Privacy Policy Page
 
 			//Cookie
 			"cookie" => true, //false to disable cookie

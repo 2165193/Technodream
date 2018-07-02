@@ -17,7 +17,7 @@
 			<label><span class="ctc-hide">Message</span>
 				<textarea name="message" cols="30" rows="10" placeholder="Message:"></textarea>
 			</label>
-			<label for="g-recaptcha-response"><span class="ctc-hide">Recaptcha</span></label>
+			<label><span class="ctc-hide">Recaptcha</span></label>
 			<div class="g-recaptcha"></div>
 			<label>
 				<input type="checkbox" name="consent" class="consentBox">I hereby consent to having this website store my submitted information so that they can respond to my inquiry.

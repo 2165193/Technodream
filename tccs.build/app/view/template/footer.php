@@ -1,14 +1,32 @@
 <footer>
 	<div id="footer">
-		
-		<h1>FOOTER</h1>
-		<p class="copy">
-			© <?php echo date("Y"); ?>. <?php $this->info("company_name"); ?> All Rights Reserved. 
-			<?php if( $this->siteInfo['policy_link'] ): ?>
-				<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
-			<?php endif ?>
-		</p>
-		<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+		<div class="row">
+			<h2>CONTACT US</h2>
+			<nav>
+				<ul>
+					<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">Home</a></li>
+					<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services#content">Services</a></li>
+					<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery#content">Gallery</a></li>
+					<li <?php $this->helpers->isActiveMenu("reviews"); ?>><a href="<?php echo URL ?>reviews#content">Reviews</a></li>
+					<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact#content">Contact Us</a></li>
+				</ul>
+			</nav>
+			<p class="copy">
+				© <?php echo date("Y"); ?>. <?php $this->info("company_name"); ?> All Rights Reserved. 
+				<?php if( $this->siteInfo['policy_link'] ): ?>
+					<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
+				<?php endif ?>
+			</p>
+			<p class="ftSocial">
+				<a href="<?php $this->info("fb_link")?>" target="_blank">f</a>
+				<a href="<?php $this->info("gp_link")?>" target="_blank">g</a>
+				<a href="<?php $this->info("li_link")?>" target="_blank">i</a>
+				<a href="<?php $this->info("tt_link")?>" target="_blank">l</a>
+				<a href="<?php $this->info("yt_link")?>" target="_blank">x</a>
+			</p>
+			<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+		</div>
+		<a href="home"><img src="public/images/common/logo.png" alt="" class="logo"></a>
 	</div>
 </footer>
 
