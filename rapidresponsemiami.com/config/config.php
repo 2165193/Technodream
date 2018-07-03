@@ -4,9 +4,9 @@
 	$siteInfo= [
 			//general info
 			"company_name" => "Rapid Response Restoration", 
-			"phone" =>  "000-000-0000", 		  //either no format or dashed format
+			"phone" =>  "888-753-5663", 		  //either no format or dashed format
 			"email" => "email@domain.com",   //by default is used as recipient email  
-			"address" => "Company Address", 
+			"font" => "888-75 FLOOD (35663)", 
 			
 			// email related
 			"site_key" => "6Lc23x0UAAAAACGIT_C0_gyWO3bkj6Q5n-f_pqbe",

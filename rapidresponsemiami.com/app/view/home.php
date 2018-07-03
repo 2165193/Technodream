@@ -1,11 +1,5 @@
 <div id="content">
 	<div class="row">
-		<div class="containerLeft fl">
-			<div class="imgBox">
-				<img src="public/images/content/contentImg1.png" alt="" class="img1">
-				<img src="public/images/content/contentImg2.png" alt="" class="img2">
-			</div>
-		</div>
 		<div class="containerRight fr">
 			<span>WELCOME</span>
 			<h1>RAPID RESPONSE RESTORATION</h1>
@@ -14,6 +8,12 @@
 				<a href="contact#content" class="btn1">LEARN MORE</a>
 				<a href="contact#content" class="btn2">FREE ESTIMATE</a>
 			</p>
+		</div>
+		<div class="containerLeft fl">
+			<div class="imgBox">
+				<img src="public/images/content/contentImg1.png" alt="" class="img1">
+				<img src="public/images/content/contentImg2.png" alt="" class="img2">
+			</div>
 		</div>
 		<div class="clearfix"></div>
 	</div>

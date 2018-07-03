@@ -29,7 +29,7 @@
 							<li <?php $this->helpers->isActiveMenu("about"); ?>><a href="<?php echo URL ?>about#content">ABOUT US</a></li>
 							<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services#content">SERVICES</a></li>
 							<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery#content">GALLERY</a></li>
-							<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact#content">CONTACT US</a></li>
+							<li <?php $this->helpers->isActiveMenu("privacy-policy"); ?>><a href="<?php echo URL ?>privacy-policy#content">PRIVACY POLICY</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -39,6 +39,17 @@
 	</header>
 	<div id="banner">
 		<div class="row">
-			<img src="public/images/common/logo.png" alt="" class="fl">
+			<div class="container">
+				<div class="containerLeft fl">
+					<p>
+						<img src="public/images/common/logo.png" alt="">
+						<span class="address"><a href="tel:<?php $this->info("phone")?>">888-75 FLOOD (35663)</a></span>
+					</p>
+				</div>
+				<div class="containerRight fr">
+					<img src="public/images/common/service.png" alt="">
+				</div>
+				<div class="clearfix"></div>	
+			</div>
 		</div>
 	</div>

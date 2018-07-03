@@ -2,6 +2,26 @@
 	<div id="footer">
 		<div class="footerTop">
 			<a href="home"><img src="public/images/common/logo.png" alt=""></a>
+			<span class="address"><a href="tel:<?php $this->info("phone")?>">888-75 FLOOD (35663)</a></span>
+		</div>
+		<div class="footerMid">
+			<h4>We will work with any insurance carrier on your behalf</h4>
+			<p>
+				<img src="public/images/common/ftImg1.png" alt="">
+				<img src="public/images/common/ftImg2.png" alt="">
+				<img src="public/images/common/ftImg3.png" alt="">
+				<img src="public/images/common/ftImg4.png" alt="">
+				<img src="public/images/common/ftImg5.png" alt="">
+				<img src="public/images/common/ftImg6.png" alt="">
+			</p>
+			<p>
+				<img src="public/images/common/ftImg7.png" alt="">
+				<img src="public/images/common/ftImg8.png" alt="">
+				<img src="public/images/common/ftImg9.png" alt="">
+				<img src="public/images/common/ftImg10.png" alt="">
+				<img src="public/images/common/ftImg11.png" alt="">
+				<img src="public/images/common/ftImg12.png" alt="">
+			</p>
 		</div>
 		<div class="footerBot">
 			<p class="copy">
