@@ -26,6 +26,7 @@
 			"tb_link" =>"https://www.tumblr.com",
 			"yp_link" =>"https://yelp.com",
 			"pt_link" =>"https://www.pinterest.ph/",
+			"rr_link" =>"https://www.rss.com/",
 
 			//seo
 			"ga_tracking_id" => '',

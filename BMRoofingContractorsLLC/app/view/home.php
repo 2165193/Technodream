@@ -5,7 +5,12 @@
 			<h1>WELCOME</h1>
 			<p>MORE THAN <span>12 YEARS</span> OF EXPERIENCE</p>
 		</div>
-		<div class="containerRight fr">
+		<div class="containerRight">
+			<img src="public/images" alt="" class="element">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus est in congue suscipit. Mauris ullamcorper metus luctus pulvinar vulputate. Aliquam sagittis lacus risus, nec blandit dolor facilisis quis. Suspendisse non arcu felis. Suspendisse elit ipsum, finibus sit amet accumsan ut, tincidunt quis leo. Morbi imperdiet, massa sed dignissim vulputate, est quam vehicula eros, ut vulputate tellus nunc non risus. Morbi egestas ante diam. Donec vulputate orci dui, id maximus dolor finibus vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+
+				<p>Sed ultrices porttitor enim in varius. Maecenas interdum imperdiet pellentesque. Aenean iaculis magna risus, ut aliquam diam ultricies vel. Donec gravida, mauris vel iaculis malesuada, turpis purus tincidunt nunc, quis gravida dolor urna quis sem. Aenean porta vel lacus eu ultricies. Maecenas accumsan varius porta. Donec placerat ipsum diam. Nam cursus arcu risus, at porta mi ornare sed. Nam faucibus rutrum est, in sodales nibh.</p>
+
 			<p>
 				<a href="contact#content" class="learn">LEARN MORE ABOUT US</a>
 				<a href="contact#content" class="contact">CONTACT US</a>

@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5{ padding:0; margin:0; }
 
 /*button*/
 .btn {font-size: 15px; font-weight: 400; color: #000; display: inline-block; padding: 10px 30px; background: #fff; border: 1px solid transparent; transition: all 0.5s ease;}
-.btn:hover {background: #ddd; border-color: #ddd; color: #ddd; color: #fff;}
+.btn:hover {background: #ddd; color: #ddd; color: #fff;}
 
 /*clearings*/
 .clear{ clear:both;}
@@ -68,10 +68,12 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 /*header*/
 header {position: relative;}
 .headerTop {background: #000000; font-family: "Abel";}
+.headerTop .contacts{text-align: right}
 .headerTop p{display: inline-block; color: #045AC4; font-size: 17px; font-weight: 400; margin: 0 0 0 30px;}
 .headerTop span{font-weight: 400; font-size: 21px; color: #fff;}
 .headerTop span.phone a{font-size: 28px; vertical-align: middle; margin-left: 15px;}
 .headerBot {background: rgba(0,0,0, 0.5);padding: 20px 0; position: absolute; z-index: 1; min-width: 100%; max-width: 1440px;}
+.headerBot .container{text-align: right}
 .headerBot nav a#pull {display: none}
 .headerBot nav ul {margin: 0;padding: 0}
 .headerBot nav ul li {display: inline-block;vertical-align: middle; padding: 0 40px;}
@@ -85,7 +87,7 @@ header {position: relative;}
 #banner .row{position: relative; max-width: 100%;}
 #banner .imgBg{position: relative;}
 #banner .imgBg:before{width: 0;height: 0;border-top: 570px solid #045AC4;border-right: 570px solid transparent; content: ""; position: absolute;left: 0; top: 0; z-index: 1}
-#banner .imgBg:after{width: 0;height: 0;border-bottom: 660px solid rgba(4,90,196, 0.7);border-left: 660px solid transparent; content: ""; right: 0; top: -20px; position: absolute;}
+#banner .imgBg:after{width: 0;height: 0;border-bottom: 660px solid rgba(4,90,196, 0.7);border-left: 725px solid transparent;content: "";right: 0;top: 38px;position: absolute;}
 #banner  p{margin: 0;position: relative;text-align: left;z-index: 1; max-width: 300px}
 #banner img{position: relative; top: 20px; left: 80px;}
 /*content*/
@@ -95,10 +97,13 @@ header {position: relative;}
 #content h1{font-family: "Oswald"; font-size: 65px; font-weight: 700; color: #0459C4;}	
 #content .containerLeft p{font-size: 31px; font-weight: 700; color: #fff;}
 #content .containerLeft p span{font-weight: 700; font-size: 44px; display: block}
-#content .containerRight a.learn{font-family :"Oswald"; font-size: 22px; color:#fff; font-weight: 200;background: #045AC4; padding: 18px 30px;}
+#content .containerRight {position: relative; z-index: 99;}
+#content .containerRight a.learn{font-family :"Oswald"; font-size: 22px; color:#fff; font-weight: 200;background: #045AC4; padding: 18px 30px;margin: 0 10px 0 43px; display: inline-block;}
 #content .containerRight a.contact{font-family :"Oswald"; font-size: 22px; color:#fff; font-weight: 200; background: #222222;padding: 18px 40px}
+#content .element {-webkit-shape-outside: polygon(100% 0, 0% 100%, 0 0); width: 425px;height: 425px;float: left;position: relative !important;}
+#content .containerRight p{text-align: left; font-size: 19px}
 /* services */
-#services {background: url(../images/content/servicesBg1.png)no-repeat top left, url(../images/content/servicesBg2.png) no-repeat top right; background-size: 880px 1760px, 505px 1020px; padding: 260px 0 680px 0;margin-top: -120px;position: relative;z-index: 1}
+#services {background: url(../images/content/servicesBg1.png)no-repeat top left, url(../images/content/servicesBg2.png) no-repeat top right; background-size: 880px 1760px, 505px 1020px; padding: 260px 0 680px 0;margin-top: -297px;position: relative;z-index: 1}
 #services .container{max-width: 960px; margin: 0 auto}
 #services dl{position: relative; display: inline-block;max-width: 316px;}
 #services dl dd {left: 0;right: 0;max-width: 135px;margin: 0 auto;font-family: "Oswald";font-weight: 200;font-size: 32px;position: absolute;color: #fff;top: 100px;}
@@ -155,9 +160,11 @@ footer {background: url(../images/common/ftBg.jpg)no-repeat center center; paddi
 .inPrivacyBox {max-width: 850px; margin: 0 auto;}
 .inPrivacyBox p {text-align: justify!important;}
 /* media query */
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
 	#banner img {left: 0}
 	#banner .imgBg:before {border-top: 476px solid #045AC4;border-right: 476px solid transparent;}
 	#banner .imgBg:after {border-bottom: 640px solid rgba(4,90,196, 0.7);border-left: 640px solid transparent; }
 	#banner {padding-bottom: 437px;}
 }
+
+

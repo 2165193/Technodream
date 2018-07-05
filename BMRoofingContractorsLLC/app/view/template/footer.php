@@ -37,10 +37,10 @@
 				<span class="mail"><?php $this->info(["email","mailto"]);?></span>
 			</p>
 			<p class="social">
-				<a href="<?php $this->info("fb_link")?>"><img src="public/images/common/ftImg1.png" alt="" target="_blank"></a>
-				<a href="<?php $this->info("tt_link")?>"><img src="public/images/common/ftImg2.png" alt="" target="_blank"></a>
-				<a href="<?php $this->info("pt_link")?>"><img src="public/images/common/ftImg3.png" alt="" target="_blank"></a>
-				<a href="<?php $this->info("ig_link")?>"><img src="public/images/common/ftImg4.png" alt="" target="_blank"></a>
+				<a href="<?php $this->info("fb_link")?>"><img src="public/images/common/ftImg1.png" alt=""></a>
+				<a href="<?php $this->info("tt_link")?>"><img src="public/images/common/ftImg2.png" alt=""></a>
+				<a href="<?php $this->info("pt_link")?>"><img src="public/images/common/ftImg3.png" alt=""></a>
+				<a href="<?php $this->info("ig_link")?>"><img src="public/images/common/ftImg4.png" alt=""></a>
 			</p>
 		</div>
 	</div>
@@ -78,7 +78,7 @@
 	</script>
 <?php endif ?>
 
-<?php if(in_array($view,["home","contact"])): ?>
+<!-- <?php //if(in_array($view,["home","contact"])): ?> -->
 	<script src='//www.google.com/recaptcha/api.js?onload=captchaCallBack&render=explicit' async defer></script>
 	<script>
 		var captchaCallBack = function() {
@@ -113,7 +113,7 @@
 
 	</script>
 
-<?php endif; ?>
+<!-- <?php //endif; ?> -->
 
 
 <?php if ($view == "gallery"): ?>

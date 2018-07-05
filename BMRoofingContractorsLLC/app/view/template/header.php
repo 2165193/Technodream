@@ -21,16 +21,15 @@
 	<header>
 		<div class="headerTop">
 			<div class="row">
-				<div class="contacts fr">
+				<div class="contacts">
 					<p>PHONE: <span class="phone"><?php $this->info(["phone","tel"]);?></span></p>
 					<p>EMAIL: <span><?php $this->info(["email","mailto"]);?></span></p>
 				</div>
-				<div class="clearfix"></div>
 			</div>
 		</div>
 		<div class="headerBot">
 			<div class="row">
-				<div class="container fr">
+				<div class="container">
 					<nav>
 						<a href="#" id="pull"><strong>MENU</strong></a>
 						<ul>
@@ -42,7 +41,6 @@
 						</ul>
 					</nav>	
 				</div>
-				<div class="clearfix"></div>
 			</div>		
 		</div>
 	</header>
