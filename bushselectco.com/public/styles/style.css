@@ -170,19 +170,19 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #works .bg:before{position: absolute;top: -33px;left: -80px;content: "FROMOUTBLOG";color: rgba(236,236,236,0.9);font-family: "Montserrat";font-weight: 900;font-size: 85px;}
 /*footer*/
 footer{margin-top: -368px;}
-#contact{position: relative;}
-#contact .row{background: #216DB9; padding: 90px 0 40px 0}
-#contact .rows {display: flex;width: 100%;justify-content: space-between;}
-#contact h2{font-family: "Poppins"; font-weight: 600; font-size: 50px; color: #fff; position: relative;}
-#contact .bg{position: relative;}
-#contact .bg:before{position: absolute;top: -53px;left: 0;right: 0;margin: 0 auto;content: "GET IN TOUCH";color: rgba(0,0,0,0.1);font-family: "Montserrat";font-weight: 900;font-size: 85px;}
-#contact .rows label{width: calc(99%/2);}
-#contact .ctc-form input[type="text"], .ctc-form textarea{border-radius: unset; border: none; margin: 0 auto 10px; font-family: "Montserrat"; font-weight: 300; font-size: 14px; color: #212121; font-style: italic; padding: 5px 30px;}
-#contact label.privacy{color: #fff;}
-#contact .ctc-form{width: 93%;}
-#contact .ctc-form button{font-family: "Montserrat"; font-weight: 700; font-size: 12px; color: #D6D6D6; padding: 15px 220px; border: none; border-radius: 50px; background: #11130C; letter-spacing: 2px;}
-#footer {background: url(../images/common/footerBg.png)no-repeat top center;background-size: cover;padding: 310px 0 75px 0 ; color: #fff; margin-top: -260px}
-#footer .row{display: flex; justify-content: space-between;}
+.contact{position: relative;}
+.contact .row{background: #216DB9; padding: 90px 0 40px 0}
+.contact .rows {display: flex;width: 100%;justify-content: space-between;}
+.contact h2{font-family: "Poppins"; font-weight: 600; font-size: 50px; color: #fff; position: relative;}
+.contact .bg{position: relative;}
+.contact .bg:before{position: absolute;top: -53px;left: 0;right: 0;margin: 0 auto;content: "GET IN TOUCH";color: rgba(0,0,0,0.1);font-family: "Montserrat";font-weight: 900;font-size: 85px;}
+.contact .rows label{width: calc(99%/2);}
+.contact .ctc-form input[type="text"],.contact .ctc-form textarea{border-radius: unset; border: none; margin: 0 auto 10px; font-family: "Montserrat"; font-weight: 300; font-size: 14px; color: #212121; font-style: italic; padding: 5px 30px;}
+.contact label.privacy{color: #fff;}
+.contact .ctc-form{width: 93%;}
+.contact .ctc-form button{font-family: "Montserrat"; font-weight: 700; font-size: 12px; color: #D6D6D6; padding: 15px 220px; border: none; border-radius: 50px; background: #11130C; letter-spacing: 2px;}
+#footer {background: url(../images/common/footerBg.png)no-repeat top center;background-size: cover;padding: 449px 0 55px 0; color: #fff; margin-top: -374px}
+#footer .container{display: flex; justify-content: space-between;}
 #footer .cols {width: calc(100%/3 - 4px); text-align: left}
 #footer .socials a{font-family: "Socialico"; font-weight: 400; font-size: 34px; vertical-align: middle; margin: 0 3px 0 0}
 #footer .socials a.fb{color: #3B5998}
@@ -190,24 +190,30 @@ footer{margin-top: -368px;}
 #footer .socials a.gp{color: #D53D30}
 #footer .socials a.li{color: #007BB6}
 #footer .socials a.yt{color: #D53D30}
-#footer .col1{max-width: 390px;}
+#footer .col1{max-width: 349px;}
 #footer .col1 h3{font-weight: 700; font-size: 40px; color: #fff;}
 #footer .col1{font-weight: 400; font-size: 14px; color: #fff;}
-#footer .col1 .socials{max-width: 390px; display: flex; justify-content: space-between;}
-#footer .col1 .socials p{margin: 0;}
+#footer .col1 p{margin: 40px 0 60px 0;}
 #footer .col2 ul{columns: 2;padding: 0;}
 #footer .col2 nav ul li{list-style: none; line-height: 3;}
 #footer .col2 nav ul li a {font-family: "Poppins";font-size: 16px; color: #fff; font-weight: 600;}
-#footer .col2 nav ul li.active-menu a, #header nav ul li a:hover {color:#216DB9;}
+#footer .col2 nav ul li.active-menu a, #footer nav ul li a:hover {color:#216DB9;}
 #footer .col2{max-width: 254px;}
-#footer .col3{max-width: 320px;}
-#footer .col3 p.email img{vertical-align: middle}
-#footer .col3 p.phone span:last-of-type{display: block; }
+#footer .col2 h3{margin: 26px 0;}
+#footer .col3{max-width: 220px;}
+#footer .col3 h3{margin: 26px 0 39px 0}
 #footer .silver img {display: inline-block;vertical-align: middle;max-width: 50px}
-
-
+#footer .email{display: flex; justify-content: space-between;margin-bottom: 26px;}
+#footer .email .cont2 span{font-family: "Poppins"; font-weight: 400; font-size: 16px; color: #fff}
+#footer .phone {display: flex; justify-content: space-between;}
+#footer .phone span{display: block;}
+#footer .phone p{font-family: "Poppins"; font-weight: 600; font-size: 20px; color: #fff; margin: 0}
+#footer .containerBot{display: flex; justify-content: space-between;}
+#footer .containerBot .col{display: flex; justify-content: space-between; width: 385px; align-items: flex-end;}
+#footer .containerBot .ads p{margin: 0; font-family: "Montserrat"; font-weight: 400; font-size: 14px; color: #fff; letter-spacing: 1px;}
+#footer .containerBot .ads p:last-of-type{letter-spacing: 1px;}
 /*inner pages*/
-.inner #content {min-height: 400px;padding: 40px 0}
-
+.inner #content {min-height: 400px;padding: 40px 0; background: #fff}
+.inner footer{margin-top: unset;}
 .inPrivacyBox {max-width: 850px; margin: 0 auto;}
 .inPrivacyBox p {text-align: justify!important;}

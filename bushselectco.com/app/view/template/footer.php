@@ -1,5 +1,5 @@
 <footer>
-	<div id="contact">
+	<div class="contact">
 		<div class="row">
 			<div class="bg">
 				<h2>REQUEST QUOTE</h2>
@@ -40,54 +40,69 @@
 	</div>
 	<div id="footer">
 		<div class="row">
-			<div class="cols col1">
-				<h3>CONTACT US</h3>
-				<p>Bush’s Electrical Co, has been in business since 1970 with over 50 years of experience. We specialize in professional electrical services. Our commitment is 100% guaranteed customer satisfaction on every project from start to finish. Call today for a free estimate.</p>
-				<div class="socials">
-					<p><a href="<?php $this->info("fb_link")?>" class="fb">f</a>
+			<div class="container">	
+				<div class="cols col1">
+					<h3>CONTACT US</h3>
+					<p>Bush’s Electrical Co, has been in business since 1970 with over 50 years of experience. We specialize in professional electrical services. Our commitment is 100% guaranteed customer satisfaction on every project from start to finish. Call today for a free estimate.</p>
+				</div>
+				<div class="cols col2">
+					<h3>Navigation</h3>
+					<nav>
+						<ul>
+							<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
+							<li <?php $this->helpers->isActiveMenu("about"); ?>><a href="<?php echo URL ?>about">ABOUT US</a></li>
+							<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services">SERVICES</a></li>
+							<li <?php $this->helpers->isActiveMenu("works"); ?>><a href="<?php echo URL ?>works">OUR WORKS</a></li>
+							<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact">CONTACT US</a></li>
+						</ul>
+					</nav>	
+				</div>
+				<div class="cols col3">
+					<h3>Get in Touch</h3>
+					<div class="email">
+						<div class="cont1">
+							<img src="public/images/common/footerImg1.png" alt="">
+						</div>
+						<div class="cont2">
+							<span><?php $this->info(["email","mailto"]);?></span>
+						</div>
+					</div>
+					<div class="phone">
+						<div class="cont1">
+							<img src="public/images/common/footerImg2.png" alt="">
+						</div>
+						<div class="cont2">		
+							<p><?php $this->info(["phone1","tel"]);?> <span><?php $this->info(["phone2","tel"]);?></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="containerBot">
+				<div class="col">
+					<div class="socials">
+						<a href="<?php $this->info("fb_link")?>" class="fb">f</a>
 						<a href="<?php $this->info("tt_link")?>" class="tt">l</a>
 						<a href="<?php $this->info("gp_link")?>" class="gp">g</a>
 						<a href="<?php $this->info("li_link")?>" class="li">i</a>
 						<a href="<?php $this->info("yt_link")?>" class="yt">x</a>
-					</p>
-					<p>
+					</div>
+					<div class="info">
 						<img src="public/images/common/info1.png" alt="">
 						<img src="public/images/common/info2.png" alt="">
 						<img src="public/images/common/info3.png" alt="">
 						<img src="public/images/common/info4.png" alt="">
 						<img src="public/images/common/info5.png" alt="">
-					</p>
+					</div>
 				</div>
-			</div>
-			<div class="cols col2">
-				<h3>Navigation</h3>
-				<nav>
-					<ul>
-						<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
-						<li <?php $this->helpers->isActiveMenu("about"); ?>><a href="<?php echo URL ?>about">ABOUT US</a></li>
-						<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services">SERVICES</a></li>
-						<li <?php $this->helpers->isActiveMenu("works"); ?>><a href="<?php echo URL ?>works">OUR WORKS</a></li>
-						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact">CONTACT US</a></li>
-					</ul>
-				</nav>	
-			</div>
-			<div class="cols col3">
-				<h3>Get in Touch</h3>
-				<div class="email">
-					<img src="public/images/common/footerImg1.png" alt="">
-					<span><?php $this->info(["email","mailto"]);?></span>
-				</div>
-				<div class="phone">
-					<img src="public/images/common/footerImg2.png" alt=""><span>
-					<p><?php $this->info(["phone1","tel"]);?> <span><?php $this->info(["phone2","tel"]);?></span></p>
-				</div>
-				<p class="copy">
+				<div class="ads">
+					<p class="copy">
 					© <?php echo date("Y"); ?>. <?php $this->info("company_name"); ?> All Rights Reserved. 
 					<?php if( $this->siteInfo['policy_link'] ): ?>
 						<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
 					<?php endif ?>
-				</p>
-				<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+					</p>
+					<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+				</div>
 			</div>
 		</div>
 	</div>
