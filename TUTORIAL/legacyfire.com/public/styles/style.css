@@ -1,0 +1,123 @@
+@font-face {font-family:"Socialico";src:url("fonts/Socialico.eot?") format("eot"),url("fonts/Socialico.woff") format("woff"),url("fonts/Socialico.ttf") format("truetype"),url("fonts/Socialico.svg#Socialico") format("svg");font-weight:normal;font-style:normal;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700|Roboto:400,500');
+
+.suspension-contain {max-height: 980px;overflow:hidden;position: relative;}
+html.suspended {background: rgba(0,0,0,0.6);}
+body {max-width: 100%;min-width: 1440px;margin: 0 auto;text-align: center;font-family: "Raleway"}
+a {color:inherit;text-decoration: none}
+a:hover {text-decoration: none;color:inherit;}
+h1,h2,h3,h4,h5{ padding:0; margin:0; }
+.row {max-width: 1024px;margin: 0 auto}
+
+/*floats*/
+.fl {float:left;}
+.fr {float:right;}
+
+/*typography*/
+.text-primary{ color: #B11414; }
+.text-bold{ font-weight: 700; }
+.text-uppercase{ text-transform: uppercase }
+.text-center{ text-align: center !important; }
+.text-left{ text-align: left; }
+.socialico{font-family: "Socialico"}
+
+/*button*/
+.btn {font-family: "Montserrat";font-size: 15px; font-weight: 700; color: #fff; display: inline-block; padding: 12px 23px; background: linear-gradient(#2390CB 27%, #255E9C 90%); /*border: 1px solid transparent*/; transition: all 0.5s ease;}
+.btn:hover {background: #ddd; border-color: #ddd; color: #ddd; color: #fff;}
+
+/*clearings*/
+.clear{ clear:both;}
+.clearfix:after {content:"."; display:block; height:0; clear:both;visibility:hidden;font-size: 0;}
+.clearfix {display:block;}
+
+/*contact form messages*/
+form .messages p {display: none;font-family: Arial !important;font-weight: 400 !important;letter-spacing: 0 !important;font-size: 16px !important;}
+form .loading {display: none;}
+form .alert {padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px;}
+form .alert-success {color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;}
+form .alert-danger {color: #a94442;background-color: #f2dede;border-color: #ebccd1;}
+form [type="submit"] {margin:20px auto}
+
+/*contact form*/
+.ctc-form {margin: 0 auto;text-align: center;}
+.ctc-form input[type="text"],.ctc-form textarea {font-family:Arial;font-size: 16px;color:#000;height:45px;display: block;width: 100%;border:1px solid #ddd;border-radius: 3px;padding: 5px 10px;box-sizing: border-box;margin: 0 auto 8px}
+.ctc-form textarea {height: 120px;padding-top:10px;}
+.ctc-form button {display: block;}
+.ctc-form .recap {display: inline-block;}
+.ctc-form .g-recaptcha div {margin: 0 auto 10px;}
+.ctc-form .ctc-hide {display: none;}
+
+/*gallery*/
+#content .gallery-container {text-align: center;}
+#content .gallery {list-style-type: none;margin: 0;padding: 0;}
+#content .gallery li {display: inline-block;}
+#content .thumbnail {background-color: #fff;border: 1px solid #ddd;border-radius: 4px;display: block;line-height: 1.42857; margin-bottom: 20px;padding: 4px;transition: border 0.2s ease-in-out 0s;}
+#content .page_navigation {display: inline-block;}
+#content .page_link,#content .previous_link,#content .next_link,#content  .first_link,#content  .last_link, #content .ellipse {background-color: #fff;border: 1px solid #ddd;color:  #0275d8;display: inline-block;line-height: 1.25;margin-left: -1px;padding: 0.5rem 0.75rem;position: relative;}
+#content .page_navigation > a:hover , .page_navigation > a.active_page {background-color: #eceeef;border-color: #ddd;color: #014c8c;text-decoration: none;}
+
+h1 {font-family: "Montserrat"; font-size: 44px;font-weight: 700;color:#246CAA;}
+h2{font-family: "Montserrat"; font-weight: 700; font-size: 22px; color: #777777;}
+/*header*/
+#header {position: relative;background: url(../images/common/bgHeader.jpg)no-repeat center top; background-size:cover;}
+#header nav a#pull {display: none}
+#header nav ul {margin: 0;padding: 0}
+#header nav ul li {display: inline-block;vertical-align: middle;border-right: 0.5px solid #2393CD;border-left: 0.5px solid #255998;box-shadow: 0.5px 0px 0px 0px #255998,-0.5px 0px 0px 0px#2393CD;margin: 0 -2px;padding: 16px 29px;}
+#header nav ul li a {font-size: 15px; color: #fff}
+#header nav ul li.active-menu, #header nav ul li:hover {background: url(../images/common/hover.png)no-repeat center top; background-size: 100% 100%}
+.hdTop .row{position: relative;}
+.hdTop .phone{background: url(../images/common/info.png)no-repeat center top; background-size: 100% 100%; max-width: 232px; position: absolute; top: 0; left: 0;padding: 0px 26px}
+.hdTop .social{background: url(../images/common/info.png)no-repeat center top; background-size: 100% 100%; max-width: 245px;  position: absolute; top: 0; right: 0;padding: 4px 19px;}
+.hdTop .phone img, .hdTop .phone p{display: inline-block; vertical-align: middle;}
+.hdTop .social p, .hdTop .social a{display: inline-block; vertical-align: middle;}
+.hdTop .phone p{font-family: "Raleway"; font-size: 10px; color: #ffffff;margin-left: 5px;}
+.hdTop .social p{font-family: "Raleway"; font-size: 10px; color: #ffffff;margin-left: 5px;}
+.hdTop .phone p span{font-family: "Roboto"; font-weight: 500; font-size: 18px; margin-left: 5px;}
+.hdTop .social a{font-size: 35px; color: #fff;margin: 0 2px}
+.hdMid{padding: 67px 0 133px;}
+.hdMid p{font-family: "Montserrat"; font-weight: 700; font-size: 44px; max-width: 778px; color: #fff;margin: 0 auto;  margin-top: 68px;}
+.hdBot{background: url(../images/common/header.png)no-repeat center top; background-size: 100% 100%;}
+/*banner*/
+#banner {}
+/*content*/
+#content {}
+
+#welcome-section{background: url(../images/content/bg1.png)no-repeat right top; background-size: 717px 100%;max-width: 1440px; width: 100%; margin: 0 auto;position: relative;text-align: left;padding: 93px 0 76px;}
+#welcome-section img{position: absolute; top: 34px; right: 139px; max-width: 536px; width: 38%; height: auto;}
+#welcome-section p{max-width: 523px; font-size: 15px; line-height: 23px}
+
+#about-section{position: relative;background: url(../images/content/bg2.png)no-repeat center top; background-size:100% 100%;max-width: 1440px; width: 100%; margin: 0 auto;}
+.abt-intro{position: absolute;top:40; right:140px; text-align: right; font-weight: 700; font-size: 29px; color: #2479B6;}
+#about-section .image1{position: absolute;top:394px; left: 101px}
+#about-section .image2{position: absolute;top:217px; left: 282px}
+#about-section .image3{position: absolute;top:146px; left: 498px}
+#about-section .image4{position: absolute;top:146px; left: 731px}
+#about-section .image5{position: absolute;top:217px; left: 965px}
+#about-section .image6{position: absolute;top:394px; left: 1143px}
+.abt-bot{padding: 559px 0 100px}
+.abt-bot p{max-width: 893px; font-size: 15px; line-height: 23px; margin: 30px auto;}
+.abt-image-desc{max-width: 170px; font-weight: 700; font-family: "Montserrat"; font-size: 15px; color: #246CAA;margin: 0 auto;}
+/*footer*/
+#footer {background: url(../images/content/bg3.jpg)no-repeat center top; background-size: cover;padding: 37px 0 27px}
+#footer .row{max-width: 1279px;position: relative;}
+#footer p.licence{font-family: "Montserrat"; font-weight: 400; font-size: 22px; color: #fff;position: absolute; left: 0; top:0}
+.footContent{max-width: 1024px; margin: 0 auto;}
+.footTop .left, .footTop .right{display: inline-block; vertical-align: top;}
+.footTop .left{width: 40%;}
+.footTop .right{width: 59%;}
+.footMid .left, .footMid .left2, .footMid .right, .footMid .right2{display: inline-block; vertical-align: top;width: 23.75%; color: #fff;font-size: 15px}
+.footMid p.phone{font-size: 18px}
+#footNav nav a#pull {display: none}
+#footNav nav ul {margin: 0;padding: 0}
+#footNav nav ul li {display: inline-block;vertical-align: middle;border-right: 0.5px solid #2393CD;border-left: 0.5px solid #255998;box-shadow: 0.5px 0px 0px 0px #255998,-0.5px 0px 0px 0px#2393CD;margin: 0 -2px;padding: 16px 29px;}
+#footNav nav ul li a {font-size: 15px; color: #fff}
+#footNav nav ul li.active-menu, #footNav nav ul li:hover {background: url(../images/common/hover.png)no-repeat center top; background-size: 100% 100%}
+#footNav{background: url(../images/common/header.png)no-repeat center top; background-size: 100% 100%;margin-bottom: 0;}
+#footer .silver img {display: inline-block;vertical-align: middle;max-width: 50px}
+#footer .copy, #footer .silver{font-size: 10px; color: #fff;}
+
+/*inner pages*/
+.inner #content {min-height: 400px;padding: 40px 0}
+
+.inPrivacyBox {max-width: 850px; margin: 0 auto;}
+.inPrivacyBox p {text-align: justify!important;}
