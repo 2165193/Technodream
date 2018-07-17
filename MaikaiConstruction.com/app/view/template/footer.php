@@ -19,7 +19,7 @@
 		<div class="row">
 			<div id="contact">	
 				<div class="cols imgBox">
-					<img src="public/images/common/logo.png" alt="">
+					<img src="public/images/common/ftLogo.png" alt="">
 				</div>
 				<div class="cols container">
 					<h3>CONTACT US</h3>
@@ -61,11 +61,11 @@
 				<nav>
 					<ul>
 						<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
-						<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services">SERVICES</a></li>
-						<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery">GALLERY</a></li>
-						<li <?php $this->helpers->isActiveMenu("reviews"); ?>><a href="<?php echo URL ?>reviews">REVIEWS</a></li>
-						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact">CONTACT US</a></li>
-						<li <?php $this->helpers->isActiveMenu("privacy-policy"); ?>><a href="<?php echo URL ?>privacy-policy">PRIVACY POLICY</a></li>
+						<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services#content">SERVICES</a></li>
+						<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery#content">GALLERY</a></li>
+						<li <?php $this->helpers->isActiveMenu("reviews"); ?>><a href="<?php echo URL ?>reviews#content">REVIEWS</a></li>
+						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact#content">CONTACT US</a></li>
+						<li <?php $this->helpers->isActiveMenu("privacy-policy"); ?>><a href="<?php echo URL ?>privacy-policy#content">PRIVACY POLICY</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -77,6 +77,12 @@
 			<?php endif ?>
 		</p>
 		<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+		<p class="Social">
+			<a href="<?php $this->info("fb_link")?>">f</a>
+			<a href="<?php $this->info("tt_link")?>">l</a>
+			<a href="<?php $this->info("yt_link")?>">x</a>
+			<a href="<?php $this->info("gp_link")?>">r</a>
+		</p>
 	</div>
 </footer>
 

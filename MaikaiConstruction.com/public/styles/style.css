@@ -69,7 +69,7 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #header .imgLogo{max-width: 190px;}
 #header .container{max-width: 911px;}
 #header .headerTop p{text-align: right; font-size: 42px; color: #fff; font-weight: 300; font-family: "Oswald"; margin: 20px 0 25px;}
-#header .headerTop p img{vertical-align: middle;}
+#header .headerTop p img{vertical-align: middle;margin-right: 10px;}
 #header .headerBot nav a#pull {display: none}
 #header .headerBot nav{border-bottom: 1px solid rgba(255,255,255,0.5);padding-bottom: 25px;}
 #header .headerBot nav ul {margin: 0;padding: 0;width: 912px;}
@@ -113,9 +113,9 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #project .container{display: flex; justify-content: space-between; align-items: center; position: relative;}
 #project .container:before{position: absolute; content: ""; border-bottom: 2px solid #fff; width: 380px; height: 1px; left: 140px; right: 0; margin: 0 auto;}
 #project .gallery{display: flex; justify-content: space-between; margin-top: 15px;}
-#project .container p > a {font-family: "Socialico"; font-size:30px; color: #E4B807; margin: 0 20px;}
+p.Social > a {font-family: "Socialico"; font-size:30px; color: #E4B807; margin: 0 20px;}
 /* what */
-#what {background: #fff; position: ; padding: 70px 0 100px;}
+#what {background: #fff; position: relative; padding: 70px 0 100px;}
 #what h2{font-weight: 700; font-sirelativeze: 40px; color: #111111; letter-spacing: 5px;}
 #what h2 > span{color: #E4B806}
 #what .container:first-of-type{margin-top: 60px;}
@@ -139,11 +139,11 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #contactInfo dl:first-of-type dd a{line-height: 0.8}
 
 /*footer*/
-#footer {background: url(../images/common/footerBg.jpg)no-repeat center center;}
+#footer {background: url(../images/common/footerBg.jpg)no-repeat center center; background-size: cover; padding: 180px 0 20px; margin-top: -85px; }
 #contact{display: flex;justify-content: space-between;}
 #contact .imgBox{max-width: 310px; }
 #contact .container{max-width: 730px}
-#contact .container .ctc-form input[type="text"], #contact .container .ctc-form textarea {font-family: "Montserrat"; font-weight: 400; font-size: 15px; border-radius: unset; background: rgba(255,255,255,0.21); color: rgba(255,255,255,0.9);    padding: 5px 20px;}
+#contact .container .ctc-form input[type="text"], #contact .container .ctc-form textarea {font-family: "Montserrat"; font-weight: 400; font-size: 15px; border-radius: unset; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.9); padding: 5px 20px;border-color: rgba(255,255,255,0.2);margin: 0 auto 12px;}
 #contact .container .ctc-form input[type="text"]::placeholder, #contact .container .ctc-form textarea::placeholder{color: #fff; font-weight: 400; color: rgba(255,255,255,0.9); font-weight: 15px;}
 #contact .container .rows{width: 100%; display: flex; justify-content: space-between;}
 #contact .container .rows label{width: calc(100%/2 - 4px)}
@@ -154,13 +154,21 @@ h1 {font-size: 100px;font-weight: 100;color:#ccc;}
 #footer .container h3{font-family: "Montserrat"; font-weight: 700; font-size: 40px; color: #fff; letter-spacing: 5px;}
 #contact .container .rows:first-of-type{margin-top: 10px;}
 #contact button.ctcBtn{color: #fff; font-size: 16px; color: #fff; font-family: "Montserrat";font-weight: 600; background: #E4B807; padding: 10px 25px; text-transform: uppercase; border: none;} 
+#footerNav {margin-top: 80px;}
 #footerNav nav{border-top: 1px solid #E4B807;padding-top: 25px;}
 #footerNav nav ul {margin: 0;padding: 0;}
 #footerNav nav ul li {display: inline-block;vertical-align: middle; padding-right: 70px;}
 #footerNav nav ul li:last-of-type{padding-right: 0;}
 #footerNav nav ul li a {font-weight: 500; font-size: 16px; color: #fff;}
+#footer p.copy{font-weight: 500; font-size: 13px; color: #E4B807; letter-spacing: 2px; }
+#footer p.silver{font-weight: 400; font-size: 13px; color: #fff; letter-spacing: 1px;}
+#footer p.Social > a{color: #fff; margin: 0 25px;}
 /*inner pages*/
 .inner #content {min-height: 400px;padding: 40px 0}
 
 .inPrivacyBox {max-width: 850px; margin: 0 auto;}
 .inPrivacyBox p {text-align: justify!important;}
+/* media query */
+@media only screen and (max-width: 1282px){
+	#about .containerRight p.desc{font-size: 14px;}
+}
