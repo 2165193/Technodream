@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800');
+@font-face {
+  font-family: 'socialico';
+  src: url('fonts/Socialico.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Socialico.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Socialico.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Socialico.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Socialico.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Socialico.svg#Socialico') format('svg'); /* Legacy iOS */
+}
+@font-face {
+font-family: 'handel gothic';
+font-style: normal;
+font-weight: 400;
+src: local('handel gothic'), url('handel gothic') format('ttf');
+}
+.suspension-contain {max-height: 980px;overflow:hidden;position: relative;}
+html.suspended {background: rgba(0,0,0,0.6);}
+body {max-width: 100%;min-width: 1200px;margin: 0 auto;text-align: center;font-family: "Open Sans"}
+a {color:inherit;text-decoration: none; display: inline-block;}
+a:hover {text-decoration: none;color:inherit;}
+h1,h2,h3,h4,h5,ul,ol,li,dl,dt,dd{ padding:0; margin:0; }
+img {display: block;}
+.row {max-width: 1336px;margin: 0 auto;}
+.row-100 {max-width: 100%;}
+.socialMedia a {font-family: 'socialico';}
+
+/*flexbox*/
+.flex {display: flex; flex-direction: row;}
+.flex-c {display: flex; flex-direction: column;}
+.in-flex {display: inline-flex;}
+.space-btw {justify-content: space-between;}
+.space-arr {justify-content: space-around;}
+.img-center {align-self: center;}
+
+/*floats*/
+.fl {float:left;}
+.fr {float:right;}
+
+/*typography*/
+.text-primary{ color: #B11414; }
+.text-bold{ font-weight: 700; }
+.text-uppercase{ text-transform: uppercase }
+.text-center{ text-align: center !important; }
+.text-left{ text-align: left; }
+
+/*button*/
+.btn {font-size: 15px; font-weight: 400; color: #000; display: inline-block; padding: 10px 30px; background: #fff; border: 1px solid transparent; transition: all 0.5s ease;}
+.btn:hover {background: #ddd; border-color: #ddd; color: #ddd; color: #fff;}
+
+/*clearings*/
+.clear{ clear:both;}
+.clearfix:after {content:"."; display:block; height:0; clear:both;visibility:hidden;font-size: 0;}
+.clearfix {display:block;}
+
+/*contact form messages*/
+form .messages p {display: none;font-family: Arial !important;font-weight: 400 !important;letter-spacing: 0 !important;font-size: 16px !important;}
+form .loading {display: none;}
+form .alert {padding: 15px;margin-bottom: 20px;border: 1px solid transparent;border-radius: 4px;}
+form .alert-success {color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6;}
+form .alert-danger {color: #a94442;background-color: #f2dede;border-color: #ebccd1;}
+form [type="submit"] {margin:20px auto}
+
+/*contact form*/
+.ctc-form {margin: 0 auto;text-align: center;}
+.ctc-form input[type="text"],.ctc-form textarea {font-family:Arial;font-size: 16px;color:#000;height:45px;display: block;width: 100%;border:1px solid #ddd;border-radius: 3px;padding: 5px 10px;box-sizing: border-box;margin: 0 auto 8px}
+.ctc-form textarea {height: 120px;padding-top:10px;}
+.ctc-form button {display: block;}
+.ctc-form .recap {display: inline-block;}
+.ctc-form .g-recaptcha div {margin: 0 auto 10px;}
+.ctc-form .ctc-hide {display: none;}
+
+/*gallery*/
+#content .gallery-container {text-align: center;}
+#content .gallery {list-style-type: none;margin: 0;padding: 0;}
+#content .gallery li {display: inline-block;}
+#content .thumbnail {background-color: #fff;border: 1px solid #ddd;border-radius: 4px;display: block;line-height: 1.42857; margin-bottom: 20px;padding: 4px;transition: border 0.2s ease-in-out 0s;}
+#content .page_navigation {display: inline-block;}
+#content .page_link,#content .previous_link,#content .next_link,#content  .first_link,#content  .last_link, #content .ellipse {background-color: #fff;border: 1px solid #ddd;color:  #0275d8;display: inline-block;line-height: 1.25;margin-left: -1px;padding: 0.5rem 0.75rem;position: relative;}
+#content .page_navigation > a:hover , .page_navigation > a.active_page {background-color: #eceeef;border-color: #ddd;color: #014c8c;text-decoration: none;}
+
+h1 {font-size: 100px;font-weight: 100;color:#000;}
+/*header*/
+#header {padding: 40px 0 0 0}
+#header .row{align-items: center}
+#header nav a#pull {display: none}
+#header nav {width: 735px}
+#header nav ul {margin: 0;padding: 0}
+#header nav ul li {display: inline-block;vertical-align: middle;}
+#header nav ul li a {font-family: "Handel Gothic"; font-weight: 400; font-size: 15px; color: #011A25}
+#header nav ul li.active-menu a, #header nav ul li a:hover {color:#011A25;}
+#header .socialMedia{width: 250px;}
+#header .socialMedia a{font-size: 35px;}
+/*banner*/
+#banner {background: url(../images/common/bannerBg.png)no-repeat center center;background-size: cover;padding: 100px 0 0 0; margin-top: -80px}
+#banner .container {width: 500px; margin-top: 255px; position: relative;bottom: -40px;}
+#banner .container .row-1{background: rgba(0,25,37,0.6); text-align: left;  padding: 90px 0 85px 75px;}
+#banner p{text-align: left}
+#banner h3{font-family: "Handel Gothic"; font-size: 60px; color: #fff; font-weight: 400; width: 363px;}
+#banner p{font-weight: 400; font-size: 15px; color: #fff; width: 329px; letter-spacing: 0.7px; line-height: 1.6; margin-top: 40px;}
+#banner .row-2 a{font-family: "Handel Gothic"; background: #EE171D; padding: 25px 193.8px;}
+/*content*/
+#content {background: #fff;}
+#content .row{align-items: center;}
+#content .cols{width: calc(100%/2); text-align: left;}
+#content .col-1 h1{margin-top: 50px;font-family: "Handel Gothic"; font-weight: 400; font-size: 60px;color: #001925;}
+#content .col-1 p.desc{font-family: "Open Sans"; font-weight: 400; font-size: 15px; color: #525252; max-width: 574px; line-height: 1.7; margin: 40px 0 50px;}
+#content .col-1 p.phone{font-family: "Handel Gothic"; font-weight: 400; font-size: 15px; color: #EE171D;}
+#content .col-1 p>span{display: block; font-family: "Handel Gothic"; font-weight: 400; font-size: 35px; color:#001925; line-height: 1.5}
+#content .col-1 img{width: 100%}
+/* content2 */
+#content2 {padding: 30px 0 70px 0; position: relative;}
+#content2 .container{position: relative;}
+#content2 .imgBox1{position: absolute; left: -90px; top: -71px;}
+#content2 .col{background: #001925; width: 50%; padding: 70px 0 145px; position: relative;}
+#content2 h3{font-family: "Handel Gothic"; font-weight: 400; font-size: 50px; color: #fff; width: 585px; margin: 0 auto;}
+#content2 a{font-family: "Handel Gothic"; font-weight: 400; font-size: 15px; color: #fff; background: #EE171D; position: absolute; left: 0; bottom: 0; padding: 25px 115px;}
+#content2 .imgBox2{position: absolute; right: 0; bottom: -260px;}
+/* services */
+#services {text-align: left; padding: 60px 0 100px}
+#services .container{}
+#services h2{font-family: "Handel Gothic"; font-weight: 400; font-size: 60px; color: #001925;}
+#services .row > p{font-weight: 400; font-size: 15px; color: #545454; width: 655px; margin: 40px 0}
+#services dl{width: calc(100%/3 - 20px); display: flex; flex-direction: column-reverse;}
+#services dt{margin-top: 10px;}
+#services dt img{width: 100%}
+#services dd p{font-family: "Handel Gothic"; font-weight: 400; font-size: 21px; color: #001925; margin: 0;}
+#services dd span{font-weight: 400; font-size: 50px; color: rgba(0,108,183,0.3); font-family: "Handel Gothic"; vertical-align: middle; margin: 0 30px 0 15px;}
+#services dt .link{text-align: center;}
+#services dt .link a{font-family: "Handel Gothic"; font-weight: 400; font-size: 15px; color: #fff; background: #EE171D; padding: 25px 159.7px;}
+/* content3 */
+#content3 {background: url(../images/content/content3Bg.jpg)no-repeat center center; background-size: cover; padding: 40px 0;}
+#content3 .container{align-items: flex-end; background: url(../images/content/content3Bg2.png)no-repeat center; background-size: cover; padding: 90px 0 155px; position: relative;}
+#content3 .container:before {content:''; background: rgba(0,25,37,0.9); position: absolute; width: 240px; height: 525px; left: -240px; top: 0}
+#content3 .col-1{width: 541px;}
+#content3 h3{text-align: left;font-family: "handel gothic"; font-weight: 400; font-size: 60px; color: #fff;}
+#content3 p{width: 337px; font-weight: 400; font-size: 15px; color: #fff; text-align: left}
+#content3 .col-2{width: 570px; justify-content: space-around; background: #EE171D; padding: 15px 0}
+#content3 .col-2 a{font-size: 45px; color: #fff; font-family: "Socialico"}
+#content3 {}
+#content3 {}
+#content3 {}
+/*footer*/
+#footer {background: #a4a4a4;padding: 40px 0; color: #fff;}
+#footer .silver img {display: inline-block;vertical-align: middle;max-width: 50px}
+#footer .silver a {color: #0d73d7;}
+
+/*inner pages*/
+.inner #content {min-height: 400px;padding: 40px 0}
+.inPrivacyBox {max-width: 850px; margin: 0 auto;}
+.inPrivacyBox p {text-align: justify!important;}
+
+/*@media screen and (max-width: 1024px){
+	body {min-width: 320px;}
+	.row {width: 95%; margin: 0 auto;}
+}
+
+@media screen and (max-width: 800px){
+	#header {margin: 50px 0 0;}
+  #header .row {max-width: 100%; width: 100%;}
+  #header nav {display: block; position: fixed; height: auto; z-index: 999; width: 100%; top: 0;}
+  #header nav ul {width: 100%; display: none; height: auto; background: rgba(0,0,0,0.2);}
+  #header nav ul li {width: 100%;position: relative;}
+  #header nav ul li a {display: block;float:none;padding: 10px 0;}
+  #header nav a {text-align: left; width: 100%; text-indent: 25px; }
+  #header nav a#pull {display: block; color: #000; background-color: #fff; padding: 15px 0; width: 100%; position: relative;}
+  #header nav a#pull:after {content: ""; color: #000; background: url(../images/nav-icon.png) no-repeat; width: 20px; height: 20px; display: inline-block; position: absolute; right: 25px; top: 15px;}
+}
+
+@media screen and (max-width: 320px){}*/
