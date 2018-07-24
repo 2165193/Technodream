@@ -3,10 +3,10 @@
 
 	$siteInfo= [
 			//general info
-			"company_name" => "Company Name", 
+			"company_name" => "LocknKey Express.", 
 			"phone" =>  "619-399-2607", 		  //either no format or dashed format
-			"email" => "email@domain.com",   //by default is used as recipient email  
-			"address" => "Company Address", 
+			"email" => "locksmithexpress19870@gmail.com",   //by default is used as recipient email  
+			"address" => "Serving San Diego and surrounding area", 
 			
 			// email related
 			"site_key" => "6Lc23x0UAAAAACGIT_C0_gyWO3bkj6Q5n-f_pqbe",

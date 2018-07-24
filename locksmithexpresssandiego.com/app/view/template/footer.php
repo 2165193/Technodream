@@ -1,14 +1,40 @@
 <footer>
-	<div id="footer">
+	<div id="footerTop">
 		<div class="row">
-			<h1>FOOTER</h1>
-			<p class="copy">
-				© <?php echo date("Y"); ?>. <?php $this->info("company_name"); ?> All Rights Reserved. 
-				<?php if( $this->siteInfo['policy_link'] ): ?>
-					<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
-				<?php endif ?>
-			</p>
-			<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+			<dl>
+				<dt>EMAIL</dt>
+				<dd><?php $this->info(["email","mailto"]);?></dd>
+			</dl>
+			<dl>
+				<dt>PHONE</dt>
+				<dd><?php $this->info(["phone","tel"]);?></dd>
+			</dl>
+			<dl>
+				<dt>LOCATION</dt>
+				<dd><?php $this->info("address");?></dd>
+			</dl>
+		</div>
+	</div>
+	<div id="footerBot">
+		<div class="row">
+			<nav>
+				<ul class="flex space-btw">
+					<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a></li>
+					<li <?php $this->helpers->isActiveMenu("services"); ?>><a href="<?php echo URL ?>services#content">SERVICES</a></li>
+					<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a href="<?php echo URL ?>gallery#content">GALLERY</a></li>
+					<li <?php $this->helpers->isActiveMenu("testimonials"); ?>><a href="<?php echo URL ?>testimonials#content">TESTIMONIALS</a></li>
+					<li <?php $this->helpers->isActiveMenu("contact"); ?>><a href="<?php echo URL ?>contact#content">CONTACT US</a></li>
+				</ul>
+			</nav>
+			<div class="ads">
+				<p class="copy">
+					COPYRIGHT <span>©</span> <?php echo date("Y"); ?>. <?php $this->info("company_name"); ?> All Rights Reserved. 
+					<?php if( $this->siteInfo['policy_link'] ): ?>
+						<a href="<?php $this->info("policy_link"); ?>">Privacy Policy</a>. 
+					<?php endif ?>
+				</p>
+				<p class="silver"><img src="public/images/scnt.png" alt="" class="company-logo" /><a href="https://silverconnectwebdesign.com/website-development" rel="external" target="_blank">Web Design</a> Done by <a href="https://silverconnectwebdesign.com" rel="external" target="_blank">Silver Connect Web Design</a></p>
+			</div>
 		</div>
 	</div>
 </footer>

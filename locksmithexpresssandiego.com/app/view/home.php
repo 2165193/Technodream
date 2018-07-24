@@ -24,7 +24,12 @@
 			<div class="clearfix"></div>
 		</div>
 		<div class="imgBox2">
-			<img src="public/images/content/content2Img2.png" alt="">
+			<div class="inner1">
+				<img src="public/images/common/whiteBg.png" alt="">
+			</div>
+			<div class="inner2">
+				<img src="public/images/content/content2Img2.png" alt="">
+			</div>
 		</div>
 	</div>
 </div>
@@ -77,6 +82,58 @@
 				<p>Give us a call when you need us and we will be happy to take on the job.</p>
 			</div>
 			<div class="col-2 flex">
+				<a href="<?php $this->info("fb_link"); ?>" target="_blank">f</a>
+				<a href="<?php $this->info("tt_link"); ?>" target="_blank">l</a>
+				<a href="<?php $this->info("yt_link"); ?>" target="_blank">x</a>
+				<a href="<?php $this->info("rr_link"); ?>" target="_blank">r</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="content4">
+	<div class="row">
+		<div class="cols col-1">
+			<div class="imgContTop">
+				<img src="public/images/content/content4Img1.jpg" alt="">
+			</div>
+			<div class="imgContBot">
+				<div class="imgBox">
+					<img src="public/images/content/content4Img2.jpg" alt="">
+				</div>
+				<div class="imgBox">
+					<img src="public/images/content/content4Img3.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="cols col-2">
+			<div class="container">
+				<h3>WHAT THEY SAY</h3>
+				<div class="rows row-1">
+					<span class="author">JERIE F. SAYS:</span>
+					<p>Tom was professional and great. I would recommend LocknKey Express to my friends as everything went good. He arrived quickly and finished the locks fast and was very nice.</p>
+					<span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+				</div>
+				<div class="rows row-2">
+					<span class="author">JONATHAN B.SAYS:</span>
+					<p>Excellent service they came quickly when I accidentally lost my cars while on campus. Great guy amazing person to talk to while getting the key made.</p>
+					<span class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="contact">
+	<div class="row">
+		<div class="cols col-1">
+			<h2>CONTACT US</h2>
+			<p>We will be glad to answer your questions, feel free to ask a piece of information or a quotation.</p>
+		</div>
+		<div class="imgBox">
+			<a href="<?php echo URL ?>"><img src="./public/images/common/ftLogo.png" alt="Main Logo" class="mainLogo"></a>
+		</div>
+		<div class="cols col-2">
+			<h4>FOLLOW US</h4>
+			<div class="socialMedia">
 				<a href="<?php $this->info("fb_link"); ?>" target="_blank">f</a>
 				<a href="<?php $this->info("tt_link"); ?>" target="_blank">l</a>
 				<a href="<?php $this->info("yt_link"); ?>" target="_blank">x</a>
