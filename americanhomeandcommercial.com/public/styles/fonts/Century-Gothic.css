@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('CenturyGothic.eot'); /* IE9 Compat Modes */
+  src: url('CenturyGothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CenturyGothic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CenturyGothic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CenturyGothic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CenturyGothic.svg#CenturyGothic') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Century Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('CenturyGothic-Bold.eot'); /* IE9 Compat Modes */
+  src: url('CenturyGothic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CenturyGothic-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CenturyGothic-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CenturyGothic-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Century Gothic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('CenturyGothic-Italic.eot'); /* IE9 Compat Modes */
+  src: url('CenturyGothic-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('CenturyGothic-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('CenturyGothic-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('CenturyGothic-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('CenturyGothic-Italic.svg#CenturyGothic-Italic') format('svg'); /* Legacy iOS */
+}
